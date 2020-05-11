@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B7F4D1F2344C92D00AAC705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D1E2344C92D00AAC705 /* AppDelegate.swift */; };
+		9B7F4D242344C92D00AAC705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F4D222344C92D00AAC705 /* Main.storyboard */; };
+		9B7F4D262344C92E00AAC705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F4D252344C92E00AAC705 /* Assets.xcassets */; };
+		9B7F4D292344C92E00AAC705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F4D272344C92E00AAC705 /* LaunchScreen.storyboard */; };
+		9B7F4D362344CF9800AAC705 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F4D352344CF9800AAC705 /* GoogleService-Info.plist */; };
+		9B7F4D3A2344E64600AAC705 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D392344E64600AAC705 /* Constants.swift */; };
+		9B7F4D4423450A8400AAC705 /* HostListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D4323450A8400AAC705 /* HostListTableViewCell.swift */; };
+		9B7F4D462345126A00AAC705 /* HostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D452345126A00AAC705 /* HostList.swift */; };
+		9B7F4D4C234549F800AAC705 /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D4B234549F800AAC705 /* Discussion.swift */; };
+		9B7F4D4F2345E78000AAC705 /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D4E2345E78000AAC705 /* PlayerListViewController.swift */; };
+		9B7F4D552345E87600AAC705 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D542345E87600AAC705 /* PlayerTableViewCell.swift */; };
+		9B7F4D572345EA3600AAC705 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4D562345EA3600AAC705 /* Player.swift */; };
+		9BAF84C123577C6C00E9DDF7 /* MapInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF84C023577C6C00E9DDF7 /* MapInfoWindow.swift */; };
+		9BAF84C32357862000E9DDF7 /* MapInfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAF84C22357862000E9DDF7 /* MapInfoWindowView.xib */; };
+		9BB34D66235E01450035A3FC /* HostListWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D65235E01450035A3FC /* HostListWindow.swift */; };
+		9BB34D68235E016F0035A3FC /* HostListWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB34D67235E016F0035A3FC /* HostListWindowView.xib */; };
+		9BB34D73235F0D450035A3FC /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D69235F0D450035A3FC /* ForgotPasswordViewController.swift */; };
+		9BB34D74235F0D450035A3FC /* RegisterHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6A235F0D450035A3FC /* RegisterHostViewController.swift */; };
+		9BB34D75235F0D450035A3FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6B235F0D450035A3FC /* ProfileViewController.swift */; };
+		9BB34D76235F0D450035A3FC /* ListHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6C235F0D450035A3FC /* ListHostViewController.swift */; };
+		9BB34D77235F0D450035A3FC /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6D235F0D450035A3FC /* RatingControl.swift */; };
+		9BB34D78235F0D450035A3FC /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6E235F0D450035A3FC /* FloatRatingView.swift */; };
+		9BB34D79235F0D450035A3FC /* PlacePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D6F235F0D450035A3FC /* PlacePickerViewController.swift */; };
+		9BB34D7A235F0D450035A3FC /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D70235F0D450035A3FC /* ReviewsViewController.swift */; };
+		9BB34D7B235F0D450035A3FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D71235F0D450035A3FC /* SignUpViewController.swift */; };
+		9BB34D7C235F0D450035A3FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D72235F0D450035A3FC /* LoginViewController.swift */; };
+		9BB34D7E235F0F2B0035A3FC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB34D7D235F0F2B0035A3FC /* ChatViewController.swift */; };
+		9BF9692E2360980100769A6D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9692D2360980100769A6D /* PlayerViewController.swift */; };
+		9BF969322360BA2000769A6D /* HostInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF969312360BA2000769A6D /* HostInfoWindow.swift */; };
+		9BF969342360BA5300769A6D /* HostInfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF969332360BA5300769A6D /* HostInfoWindowView.xib */; };
+		9BF969362361089800769A6D /* PlayerHostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF969352361089800769A6D /* PlayerHostList.swift */; };
+		9BF96938236117DC00769A6D /* HostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF96937236117DC00769A6D /* HostViewCell.swift */; };
+		F35A66C62EC7E8AD243314FD /* Pods_footchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F105F703E9F7A581079768 /* Pods_footchat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E973647FB6CA6E118296E6 /* Pods-footchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footchat.release.xcconfig"; path = "Target Support Files/Pods-footchat/Pods-footchat.release.xcconfig"; sourceTree = "<group>"; };
+		9B7F4D1B2344C92D00AAC705 /* footchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7F4D1E2344C92D00AAC705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B7F4D232344C92D00AAC705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B7F4D252344C92E00AAC705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B7F4D282344C92E00AAC705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B7F4D2A2344C92E00AAC705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7F4D352344CF9800AAC705 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9B7F4D392344E64600AAC705 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B7F4D4323450A8400AAC705 /* HostListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostListTableViewCell.swift; sourceTree = "<group>"; };
+		9B7F4D452345126A00AAC705 /* HostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostList.swift; sourceTree = "<group>"; };
+		9B7F4D4B234549F800AAC705 /* Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
+		9B7F4D4D23454A1E00AAC705 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		9B7F4D4E2345E78000AAC705 /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerListViewController.swift; path = footchat/Controllers/PlayerListViewController.swift; sourceTree = SOURCE_ROOT; };
+		9B7F4D542345E87600AAC705 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		9B7F4D562345EA3600AAC705 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9BAF84C023577C6C00E9DDF7 /* MapInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInfoWindow.swift; sourceTree = "<group>"; };
+		9BAF84C22357862000E9DDF7 /* MapInfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapInfoWindowView.xib; sourceTree = "<group>"; };
+		9BB34D65235E01450035A3FC /* HostListWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostListWindow.swift; sourceTree = "<group>"; };
+		9BB34D67235E016F0035A3FC /* HostListWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HostListWindowView.xib; sourceTree = "<group>"; };
+		9BB34D69235F0D450035A3FC /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = footchat/Controllers/ForgotPasswordViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6A235F0D450035A3FC /* RegisterHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterHostViewController.swift; path = footchat/Controllers/RegisterHostViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6B235F0D450035A3FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = footchat/Controllers/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6C235F0D450035A3FC /* ListHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListHostViewController.swift; path = footchat/Controllers/ListHostViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6D235F0D450035A3FC /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = footchat/Controllers/RatingControl.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6E235F0D450035A3FC /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = footchat/Controllers/FloatRatingView.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D6F235F0D450035A3FC /* PlacePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacePickerViewController.swift; path = footchat/Controllers/PlacePickerViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D70235F0D450035A3FC /* ReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewsViewController.swift; path = footchat/Controllers/ReviewsViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D71235F0D450035A3FC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = footchat/Controllers/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D72235F0D450035A3FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = footchat/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BB34D7D235F0F2B0035A3FC /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = footchat/Controllers/ChatViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BF9692D2360980100769A6D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = footchat/Models/Controllers/PlayerViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BF969312360BA2000769A6D /* HostInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostInfoWindow.swift; sourceTree = "<group>"; };
+		9BF969332360BA5300769A6D /* HostInfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HostInfoWindowView.xib; sourceTree = "<group>"; };
+		9BF969352361089800769A6D /* PlayerHostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHostList.swift; sourceTree = "<group>"; };
+		9BF96937236117DC00769A6D /* HostViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewCell.swift; sourceTree = "<group>"; };
+		A4008921BB1BDC0B4E81E6FF /* Pods-footchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footchat.debug.xcconfig"; path = "Target Support Files/Pods-footchat/Pods-footchat.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F105F703E9F7A581079768 /* Pods_footchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7F4D182344C92D00AAC705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35A66C62EC7E8AD243314FD /* Pods_footchat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275F2385F0E1D47F880CCBEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4008921BB1BDC0B4E81E6FF /* Pods-footchat.debug.xcconfig */,
+				23E973647FB6CA6E118296E6 /* Pods-footchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B7F4D122344C92D00AAC705 = {
+			isa = PBXGroup;
+			children = (
+				9B7F4D4D23454A1E00AAC705 /* Bridging-Header.h */,
+				9B7F4D1D2344C92D00AAC705 /* footchat */,
+				9B7F4D1C2344C92D00AAC705 /* Products */,
+				275F2385F0E1D47F880CCBEA /* Pods */,
+				E8CBDA05EF3B5798B124BF49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B7F4D1C2344C92D00AAC705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F4D1B2344C92D00AAC705 /* footchat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B7F4D1D2344C92D00AAC705 /* footchat */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F4D312344CEA000AAC705 /* Controllers */,
+				9B7F4D342344CEBF00AAC705 /* SupportFiles */,
+				9B7F4D332344CEB300AAC705 /* Views */,
+				9B7F4D322344CEAA00AAC705 /* Models */,
+			);
+			path = footchat;
+			sourceTree = "<group>";
+		};
+		9B7F4D312344CEA000AAC705 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BB34D7D235F0F2B0035A3FC /* ChatViewController.swift */,
+				9BB34D72235F0D450035A3FC /* LoginViewController.swift */,
+				9BB34D6E235F0D450035A3FC /* FloatRatingView.swift */,
+				9BB34D69235F0D450035A3FC /* ForgotPasswordViewController.swift */,
+				9BB34D6C235F0D450035A3FC /* ListHostViewController.swift */,
+				9BB34D6F235F0D450035A3FC /* PlacePickerViewController.swift */,
+				9BB34D6B235F0D450035A3FC /* ProfileViewController.swift */,
+				9BB34D6D235F0D450035A3FC /* RatingControl.swift */,
+				9BF9692D2360980100769A6D /* PlayerViewController.swift */,
+				9BB34D6A235F0D450035A3FC /* RegisterHostViewController.swift */,
+				9BB34D70235F0D450035A3FC /* ReviewsViewController.swift */,
+				9BB34D71235F0D450035A3FC /* SignUpViewController.swift */,
+				9B7F4D4E2345E78000AAC705 /* PlayerListViewController.swift */,
+			);
+			name = Controllers;
+			path = Models/Controllers;
+			sourceTree = "<group>";
+		};
+		9B7F4D322344CEAA00AAC705 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BF96937236117DC00769A6D /* HostViewCell.swift */,
+				9B7F4D392344E64600AAC705 /* Constants.swift */,
+				9B7F4D4323450A8400AAC705 /* HostListTableViewCell.swift */,
+				9B7F4D452345126A00AAC705 /* HostList.swift */,
+				9BF969352361089800769A6D /* PlayerHostList.swift */,
+				9B7F4D4B234549F800AAC705 /* Discussion.swift */,
+				9B7F4D542345E87600AAC705 /* PlayerTableViewCell.swift */,
+				9B7F4D562345EA3600AAC705 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B7F4D332344CEB300AAC705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F4D252344C92E00AAC705 /* Assets.xcassets */,
+				9BAF84C22357862000E9DDF7 /* MapInfoWindowView.xib */,
+				9BB34D67235E016F0035A3FC /* HostListWindowView.xib */,
+				9B7F4D272344C92E00AAC705 /* LaunchScreen.storyboard */,
+				9B7F4D222344C92D00AAC705 /* Main.storyboard */,
+				9B7F4D1E2344C92D00AAC705 /* AppDelegate.swift */,
+				9BAF84C023577C6C00E9DDF7 /* MapInfoWindow.swift */,
+				9BB34D65235E01450035A3FC /* HostListWindow.swift */,
+				9BF969312360BA2000769A6D /* HostInfoWindow.swift */,
+				9BF969332360BA5300769A6D /* HostInfoWindowView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B7F4D342344CEBF00AAC705 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F4D352344CF9800AAC705 /* GoogleService-Info.plist */,
+				9B7F4D2A2344C92E00AAC705 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E8CBDA05EF3B5798B124BF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F105F703E9F7A581079768 /* Pods_footchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B7F4D1A2344C92D00AAC705 /* footchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7F4D2D2344C92E00AAC705 /* Build configuration list for PBXNativeTarget "footchat" */;
+			buildPhases = (
+				5FF5F244518E2DFD890ACBA8 /* [CP] Check Pods Manifest.lock */,
+				9B7F4D172344C92D00AAC705 /* Sources */,
+				9B7F4D182344C92D00AAC705 /* Frameworks */,
+				9B7F4D192344C92D00AAC705 /* Resources */,
+				2230D4EF4B36CB2204071D4B /* [CP] Embed Pods Frameworks */,
+				CDF348990A5C817EC67CB147 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = footchat;
+			productName = footchat;
+			productReference = 9B7F4D1B2344C92D00AAC705 /* footchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7F4D132344C92D00AAC705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Marten;
+				TargetAttributes = {
+					9B7F4D1A2344C92D00AAC705 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B7F4D162344C92D00AAC705 /* Build configuration list for PBXProject "footchat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B7F4D122344C92D00AAC705;
+			productRefGroup = 9B7F4D1C2344C92D00AAC705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B7F4D1A2344C92D00AAC705 /* footchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B7F4D192344C92D00AAC705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB34D68235E016F0035A3FC /* HostListWindowView.xib in Resources */,
+				9B7F4D292344C92E00AAC705 /* LaunchScreen.storyboard in Resources */,
+				9BAF84C32357862000E9DDF7 /* MapInfoWindowView.xib in Resources */,
+				9B7F4D362344CF9800AAC705 /* GoogleService-Info.plist in Resources */,
+				9B7F4D262344C92E00AAC705 /* Assets.xcassets in Resources */,
+				9BF969342360BA5300769A6D /* HostInfoWindowView.xib in Resources */,
+				9B7F4D242344C92D00AAC705 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2230D4EF4B36CB2204071D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF5F244518E2DFD890ACBA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-footchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF348990A5C817EC67CB147 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-footchat/Pods-footchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B7F4D172344C92D00AAC705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7F4D4C234549F800AAC705 /* Discussion.swift in Sources */,
+				9BB34D73235F0D450035A3FC /* ForgotPasswordViewController.swift in Sources */,
+				9BF969362361089800769A6D /* PlayerHostList.swift in Sources */,
+				9BB34D79235F0D450035A3FC /* PlacePickerViewController.swift in Sources */,
+				9B7F4D4F2345E78000AAC705 /* PlayerListViewController.swift in Sources */,
+				9BB34D75235F0D450035A3FC /* ProfileViewController.swift in Sources */,
+				9B7F4D572345EA3600AAC705 /* Player.swift in Sources */,
+				9BB34D77235F0D450035A3FC /* RatingControl.swift in Sources */,
+				9BB34D7C235F0D450035A3FC /* LoginViewController.swift in Sources */,
+				9B7F4D4423450A8400AAC705 /* HostListTableViewCell.swift in Sources */,
+				9BF969322360BA2000769A6D /* HostInfoWindow.swift in Sources */,
+				9BF9692E2360980100769A6D /* PlayerViewController.swift in Sources */,
+				9BB34D78235F0D450035A3FC /* FloatRatingView.swift in Sources */,
+				9BB34D7E235F0F2B0035A3FC /* ChatViewController.swift in Sources */,
+				9B7F4D1F2344C92D00AAC705 /* AppDelegate.swift in Sources */,
+				9BF96938236117DC00769A6D /* HostViewCell.swift in Sources */,
+				9BB34D66235E01450035A3FC /* HostListWindow.swift in Sources */,
+				9BB34D7A235F0D450035A3FC /* ReviewsViewController.swift in Sources */,
+				9B7F4D3A2344E64600AAC705 /* Constants.swift in Sources */,
+				9BB34D76235F0D450035A3FC /* ListHostViewController.swift in Sources */,
+				9B7F4D552345E87600AAC705 /* PlayerTableViewCell.swift in Sources */,
+				9BB34D7B235F0D450035A3FC /* SignUpViewController.swift in Sources */,
+				9BB34D74235F0D450035A3FC /* RegisterHostViewController.swift in Sources */,
+				9BAF84C123577C6C00E9DDF7 /* MapInfoWindow.swift in Sources */,
+				9B7F4D462345126A00AAC705 /* HostList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B7F4D222344C92D00AAC705 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7F4D232344C92D00AAC705 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B7F4D272344C92E00AAC705 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7F4D282344C92E00AAC705 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B7F4D2B2344C92E00AAC705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B7F4D2C2344C92E00AAC705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B7F4D2E2344C92E00AAC705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4008921BB1BDC0B4E81E6FF /* Pods-footchat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = footchat/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lami.FootballChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B7F4D2F2344C92E00AAC705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E973647FB6CA6E118296E6 /* Pods-footchat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = footchat/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lami.FootballChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7F4D162344C92D00AAC705 /* Build configuration list for PBXProject "footchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F4D2B2344C92E00AAC705 /* Debug */,
+				9B7F4D2C2344C92E00AAC705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7F4D2D2344C92E00AAC705 /* Build configuration list for PBXNativeTarget "footchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F4D2E2344C92E00AAC705 /* Debug */,
+				9B7F4D2F2344C92E00AAC705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B7F4D132344C92D00AAC705 /* Project object */;
+}

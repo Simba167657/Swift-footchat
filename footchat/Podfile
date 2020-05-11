@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'footchat' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'JSQMessagesViewController'
+  pod 'Kingfisher'
+  pod 'DatePickerDialog'
+  pod 'iOSDropDown'
+  pod 'GoogleMaps'
+  pod 'GooglePlacePicker'
+  pod 'GooglePlaces'
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+  # Pods for footchat
+
+end
